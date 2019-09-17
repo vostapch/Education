@@ -27,20 +27,35 @@ docekr attach: Attach local standard input, outut and error steams to a running 
 docker build: Build an image from a Dockerfile
 
 docker exac: Run a command in a running container
+
 docker images: List images
+
 docker info: Display system-wide information
+
 docker inspect: Return low-level information about Docker objects
+
 docker logs: Fetch the logs of a container
+
 docker network: Manage networks
+
 docker node: Manage Swarm nodes
+
 docker ps: List containers
+
 docker pull: Pull an image or a repository from a registry
+
 docker push: Push an image or a repository to a registry
+
 docker restart: Restart one or more containers
+
 docker rm(rmi): remove one or more containers(images)
+
 docker run: Run a command in a new container
+
 docker start: Start one or more stopped containers
+
 docker swarm: Manage Swarm
+
 docker volume: Manage volumes
 
 
