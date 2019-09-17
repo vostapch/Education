@@ -4,7 +4,9 @@ Table of Contents
 =================
   * [What's Docker](#Docker)
   * [Docker Engine](#Docker-Engine)
+  * [Docker images](#Docker-images)
   * [Basic Docker Commands](#Docker-commands)
+  
 
 What is Docker?
 ---------------------
@@ -18,6 +20,12 @@ Docker Engine is a client-server application:
 * The server runs as a deamon process 
 * REST API
 * A command line interface (CLI) client
+
+Docker Images:
+-----------------
+* A Docker images is a built up from a series of layers
+* Each layer represents an instruction in the image's Dockerfile
+* Each layer expect the very last one is read-only.
 
 Basic Docker Commands
 --------------------
