@@ -27,6 +27,13 @@ Docker Images:
 * Each layer represents an instruction in the image's Dockerfile
 * Each layer expect the very last one is read-only.
 
+Containers and layers: 
+-----------------------
+* A container create a new writable layer on top of the underlying image layers.
+* The difference between a container and an image is the top writable layer.
+* Data changes are stored in the writable layer
+* When the container is deletedm the writable layer are also deleted.
+
 Basic Docker Commands
 --------------------
 
