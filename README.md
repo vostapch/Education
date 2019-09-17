@@ -23,7 +23,9 @@ Basic Docker Commands
 --------------------
 
 docekr attach: Attach local standard input, outut and error steams to a running container(almost like ssh)
+
 docker build: Build an image from a Dockerfile
+
 docker exac: Run a command in a running container
 docker images: List images
 docker info: Display system-wide information
