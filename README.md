@@ -5,6 +5,7 @@ Table of Contents
   * [What's Docker](#Docker)
   * [Docker Engine](#Docker-Engine)
   * [Docker images](#Docker-images)
+  * [Dockerfile](#Dockerfile)
   * [Basic Docker Commands](#Docker-commands)
   
 
@@ -33,6 +34,15 @@ Containers and layers:
 * The difference between a container and an image is the top writable layer.
 * Data changes are stored in the writable layer
 * When the container is deletedm the writable layer are also deleted.
+
+Dockerfile
+-------------
+* A Dockerfile a set of instructions for automatically building Docker images.
+* It contains all the commands a user could call on the command line to assemble an image.
+* The instructions are not case-sensetive.
+* The instruction names should be UPPERCASE to distinguish them from arguments more easily.
+* Instructions are run in order.
+* Dockerfiles must start with a 'FROM' instruction.f
 
 Basic Docker Commands
 --------------------
